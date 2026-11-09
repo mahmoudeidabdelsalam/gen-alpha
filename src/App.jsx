@@ -10,7 +10,7 @@ const socialLinks = {
 function BrandMark({ compact = false }) {
   return (
     <Link className={`brand-mark${compact ? ' brand-mark--compact' : ''}`} to="/" aria-label="Gen Alpha home">
-      <span className="brand-monogram" aria-hidden="true">G<span>A</span></span>
+      <span className="brand-monogram" aria-hidden="true">G</span>
       <span className="brand-wordmark">GEN<span>ALPHA</span></span>
     </Link>
   );
